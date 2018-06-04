@@ -256,6 +256,7 @@ DEPENDENCIES
   font-awesome-sass
   jbuilder (~> 2.5)
   jquery-datatables-rails (~> 3.4.0)
+  jquery-rails
   jquery-turbolinks
   listen (>= 3.0.5, < 3.2)
   meta_request

@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'jquery-turbolinks'
 gem 'rollbar'
