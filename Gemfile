@@ -37,7 +37,7 @@ gem 'jquery-rails'
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'jquery-turbolinks'
 gem 'rollbar'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 5.0.13'
 gem 'simple_form'
 gem 'devise'
 
