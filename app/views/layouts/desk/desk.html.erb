@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cryptodesk</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'desk/desk', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'desk', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    <%= render 'layouts/desk/navigation' %>
+    <%= yield %>
+    <hr>
+    <div class="container">
+      <% if Rails.env.development? %>
+        <%= debug(params) %>
+      <% end %>
+    </div>
+  </body>
+</html>

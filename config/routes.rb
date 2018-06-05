@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'desk/index'
+
   root 'homepage#index'
 
   get 'homepage/about'
