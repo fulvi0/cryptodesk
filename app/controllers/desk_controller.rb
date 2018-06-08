@@ -3,4 +3,7 @@ class DeskController < ApplicationController
 
   def index
   end
+
+  def cryptocurrencies
+  end
 end

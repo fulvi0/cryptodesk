@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'desk/index'
+  get 'desk/cryptocurrencies'
 
   root 'homepage#index'
 
